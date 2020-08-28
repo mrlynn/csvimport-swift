@@ -1,0 +1,7040 @@
+// !$*UTF8*$!
+{
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_411";
+         projectDirPath = ".";
+         targets = (
+            "mongo-swift-driver::CLibMongoC",
+            "swift-nio::CNIOAtomics",
+            "swift-nio::CNIODarwin",
+            "swift-nio::CNIOLinux",
+            "swift-nio::CNIOSHA1",
+            "mongo-swift-driver::MongoSwift",
+            "mongo-swift-driver::MongoSwiftSync",
+            "swift-nio::NIO",
+            "swift-nio::NIOConcurrencyHelpers",
+            "csvimport-swift::csvimport-swift",
+            "csvimport-swift::SwiftPMPackageDescription",
+            "csvimport-swift::csvimport-swiftPackageTests::ProductTarget",
+            "csvimport-swift::csvimport-swiftTests",
+            "mongo-swift-driver::SwiftPMPackageDescription",
+            "swift-nio::SwiftPMPackageDescription"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_11"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_100" = {
+         isa = "PBXFileReference";
+         path = "mongoc-opts-helpers.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_101" = {
+         isa = "PBXFileReference";
+         path = "mongoc-opts.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_102" = {
+         isa = "PBXFileReference";
+         path = "mongoc-queue.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_103" = {
+         isa = "PBXFileReference";
+         path = "mongoc-rand-cng.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_104" = {
+         isa = "PBXFileReference";
+         path = "mongoc-rand-common-crypto.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_105" = {
+         isa = "PBXFileReference";
+         path = "mongoc-rand-openssl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_106" = {
+         isa = "PBXFileReference";
+         path = "mongoc-read-concern.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_107" = {
+         isa = "PBXFileReference";
+         path = "mongoc-read-prefs.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_108" = {
+         isa = "PBXFileReference";
+         path = "mongoc-rpc.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_109" = {
+         isa = "PBXFileReference";
+         path = "mongoc-sasl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_12",
+            "OBJ_13"
+         );
+         name = "csvimport-swiftTests";
+         path = "Tests/csvimport-swiftTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_110" = {
+         isa = "PBXFileReference";
+         path = "mongoc-scram.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_111" = {
+         isa = "PBXFileReference";
+         path = "mongoc-secure-channel.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_112" = {
+         isa = "PBXFileReference";
+         path = "mongoc-secure-transport.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_113" = {
+         isa = "PBXFileReference";
+         path = "mongoc-server-description.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_114" = {
+         isa = "PBXFileReference";
+         path = "mongoc-server-stream.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_115" = {
+         isa = "PBXFileReference";
+         path = "mongoc-set.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_116" = {
+         isa = "PBXFileReference";
+         path = "mongoc-socket.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_117" = {
+         isa = "PBXFileReference";
+         path = "mongoc-ssl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_118" = {
+         isa = "PBXFileReference";
+         path = "mongoc-sspi.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_119" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-buffered.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXFileReference";
+         path = "XCTestManifests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_120" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-file.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_121" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-gridfs-download.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_122" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-gridfs-upload.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_123" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-gridfs.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_124" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-socket.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_125" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-tls-libressl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_126" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-tls-openssl-bio.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_127" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-tls-openssl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_128" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-tls-secure-channel.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_129" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-tls-secure-transport.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "csvimport_swiftTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_130" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream-tls.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_131" = {
+         isa = "PBXFileReference";
+         path = "mongoc-stream.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_132" = {
+         isa = "PBXFileReference";
+         path = "mongoc-topology-description-apm.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_133" = {
+         isa = "PBXFileReference";
+         path = "mongoc-topology-description.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_134" = {
+         isa = "PBXFileReference";
+         path = "mongoc-topology-scanner.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_135" = {
+         isa = "PBXFileReference";
+         path = "mongoc-topology.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_136" = {
+         isa = "PBXFileReference";
+         path = "mongoc-uri.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_137" = {
+         isa = "PBXFileReference";
+         path = "mongoc-util.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_138" = {
+         isa = "PBXFileReference";
+         path = "mongoc-version-functions.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_139" = {
+         isa = "PBXFileReference";
+         path = "mongoc-write-command-legacy.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_15",
+            "OBJ_307"
+         );
+         name = "Dependencies";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_140" = {
+         isa = "PBXFileReference";
+         path = "mongoc-write-command.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_141" = {
+         isa = "PBXFileReference";
+         path = "mongoc-write-concern.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_142" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_143",
+            "OBJ_144",
+            "OBJ_145",
+            "OBJ_146",
+            "OBJ_147",
+            "OBJ_148",
+            "OBJ_149",
+            "OBJ_150",
+            "OBJ_151",
+            "OBJ_152",
+            "OBJ_153",
+            "OBJ_154",
+            "OBJ_155",
+            "OBJ_156",
+            "OBJ_157",
+            "OBJ_158",
+            "OBJ_159",
+            "OBJ_160",
+            "OBJ_161",
+            "OBJ_162",
+            "OBJ_163",
+            "OBJ_164",
+            "OBJ_165",
+            "OBJ_166",
+            "OBJ_167",
+            "OBJ_168",
+            "OBJ_169",
+            "OBJ_170",
+            "OBJ_171",
+            "OBJ_172",
+            "OBJ_173",
+            "OBJ_174",
+            "OBJ_175",
+            "OBJ_176",
+            "OBJ_177",
+            "OBJ_178",
+            "OBJ_179",
+            "OBJ_180",
+            "OBJ_181",
+            "OBJ_182",
+            "OBJ_183",
+            "OBJ_184",
+            "OBJ_185",
+            "OBJ_186",
+            "OBJ_187",
+            "OBJ_188",
+            "OBJ_189",
+            "OBJ_190",
+            "OBJ_191",
+            "OBJ_192",
+            "OBJ_193",
+            "OBJ_194",
+            "OBJ_195",
+            "OBJ_196",
+            "OBJ_197",
+            "OBJ_198",
+            "OBJ_199",
+            "OBJ_200",
+            "OBJ_201",
+            "OBJ_202",
+            "OBJ_203",
+            "OBJ_204",
+            "OBJ_205",
+            "OBJ_206",
+            "OBJ_207",
+            "OBJ_208",
+            "OBJ_209",
+            "OBJ_210",
+            "OBJ_211",
+            "OBJ_212",
+            "OBJ_213",
+            "OBJ_214",
+            "OBJ_215",
+            "OBJ_216",
+            "OBJ_217",
+            "OBJ_218",
+            "OBJ_219",
+            "OBJ_220",
+            "OBJ_221",
+            "OBJ_222",
+            "OBJ_223",
+            "OBJ_224"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_143" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-oid.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_144" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_145" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-version-functions.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_146" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-gridfs-file-page.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_147" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-context.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_148" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-iter.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_149" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-init.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_16",
+            "OBJ_225",
+            "OBJ_292",
+            "OBJ_306"
+         );
+         name = "mongo-swift-driver 1.0.1";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_150" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-config.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_151" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-config.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_152" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-tls-libressl.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_153" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-error.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_154" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-keys.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_155" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_common-b64-private.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_156" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-read-prefs.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_157" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-index.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_158" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bcon.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_159" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-client.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_17",
+            "OBJ_40",
+            "OBJ_43",
+            "OBJ_142"
+         );
+         name = "CLibMongoC";
+         path = ".build/checkouts/mongo-swift-driver/Sources/CLibMongoC";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_160" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_161" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-clock.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_162" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-client-side-encryption.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_163" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-prelude.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_164" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-tls-secure-channel.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_165" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-buffered.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_166" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-reader.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_167" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-socket.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_168" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-gridfs-bucket.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_169" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22",
+            "OBJ_23",
+            "OBJ_24",
+            "OBJ_25",
+            "OBJ_26",
+            "OBJ_27",
+            "OBJ_28",
+            "OBJ_29",
+            "OBJ_30",
+            "OBJ_31",
+            "OBJ_32",
+            "OBJ_33",
+            "OBJ_34",
+            "OBJ_35",
+            "OBJ_36",
+            "OBJ_37",
+            "OBJ_38",
+            "OBJ_39"
+         );
+         name = "bson";
+         path = "bson";
+         sourceTree = "<group>";
+      };
+      "OBJ_170" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-iovec.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_171" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-ssl.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_172" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-tls-openssl.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_173" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-collection.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_174" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-server-description.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_175" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-cursor.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_176" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-md5.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_177" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-find-and-modify.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_178" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-write-concern.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_179" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-log.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "bcon.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_180" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-apm.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_181" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-database.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_182" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-endian.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_183" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-version.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_184" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-handshake.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_185" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-flags.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_186" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-gridfs.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_187" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-rand.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_188" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-read-concern.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_189" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_common-thread-private.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "bson-atomic.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_190" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-uri.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_191" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_192" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-gridfs-file-list.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_193" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-macros.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_194" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-macros.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_195" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-change-stream.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_196" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_common-md5-private.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_197" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-memory.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_198" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-writer.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_199" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-compat.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "bson-clock.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_200" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-host-list.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_201" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-gridfs-file.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_202" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-value.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_203" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_common-prelude.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_204" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-client-pool.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_205" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-prelude.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_206" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-json.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_207" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-file.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_208" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-decimal128.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_209" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-socket.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "bson-context.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_210" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-tls-secure-transport.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_211" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-stream-tls.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_212" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-topology-description.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_213" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-utf8.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_214" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-error.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_215" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-atomic.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_216" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-string.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_217" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-client-session.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_218" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-version.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_219" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_bson-types.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "bson-decimal128.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_220" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-opcode.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_221" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-gridfs.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_222" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-matcher.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_223" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-version-functions.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_224" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC_mongoc-bulk-operation.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_225" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_226",
+            "OBJ_227",
+            "OBJ_242",
+            "OBJ_243",
+            "OBJ_244",
+            "OBJ_245",
+            "OBJ_246",
+            "OBJ_247",
+            "OBJ_248",
+            "OBJ_249",
+            "OBJ_250",
+            "OBJ_251",
+            "OBJ_252",
+            "OBJ_253",
+            "OBJ_254",
+            "OBJ_255",
+            "OBJ_256",
+            "OBJ_257",
+            "OBJ_258",
+            "OBJ_259",
+            "OBJ_260",
+            "OBJ_261",
+            "OBJ_262",
+            "OBJ_263",
+            "OBJ_264",
+            "OBJ_265",
+            "OBJ_288",
+            "OBJ_289",
+            "OBJ_290",
+            "OBJ_291"
+         );
+         name = "MongoSwift";
+         path = ".build/checkouts/mongo-swift-driver/Sources/MongoSwift";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_226" = {
+         isa = "PBXFileReference";
+         path = "APM.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_227" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_228",
+            "OBJ_229",
+            "OBJ_230",
+            "OBJ_231",
+            "OBJ_232",
+            "OBJ_233",
+            "OBJ_234",
+            "OBJ_235",
+            "OBJ_236",
+            "OBJ_237",
+            "OBJ_238",
+            "OBJ_239",
+            "OBJ_240",
+            "OBJ_241"
+         );
+         name = "BSON";
+         path = "BSON";
+         sourceTree = "<group>";
+      };
+      "OBJ_228" = {
+         isa = "PBXFileReference";
+         path = "BSON.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_229" = {
+         isa = "PBXFileReference";
+         path = "BSONDecoder.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "bson-error.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_230" = {
+         isa = "PBXFileReference";
+         path = "BSONDocument+Codable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_231" = {
+         isa = "PBXFileReference";
+         path = "BSONDocument+Collection.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_232" = {
+         isa = "PBXFileReference";
+         path = "BSONDocument+Sequence.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_233" = {
+         isa = "PBXFileReference";
+         path = "BSONDocument.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_234" = {
+         isa = "PBXFileReference";
+         path = "BSONDocumentIterator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_235" = {
+         isa = "PBXFileReference";
+         path = "BSONEncoder.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_236" = {
+         isa = "PBXFileReference";
+         path = "BSONError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_237" = {
+         isa = "PBXFileReference";
+         path = "BSONUtil.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_238" = {
+         isa = "PBXFileReference";
+         path = "BSONValue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_239" = {
+         isa = "PBXFileReference";
+         path = "CodableNumber.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "bson-iso8601.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_240" = {
+         isa = "PBXFileReference";
+         path = "CodingStrategies.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_241" = {
+         isa = "PBXFileReference";
+         path = "Overwritable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_242" = {
+         isa = "PBXFileReference";
+         path = "ChangeStream.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_243" = {
+         isa = "PBXFileReference";
+         path = "ChangeStreamDocument.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_244" = {
+         isa = "PBXFileReference";
+         path = "ChangeStreamOptions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_245" = {
+         isa = "PBXFileReference";
+         path = "ClientSession.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_246" = {
+         isa = "PBXFileReference";
+         path = "ConnectionPool.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_247" = {
+         isa = "PBXFileReference";
+         path = "ConnectionString.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_248" = {
+         isa = "PBXFileReference";
+         path = "CursorCommon.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_249" = {
+         isa = "PBXFileReference";
+         path = "Hint.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "bson-iter.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_250" = {
+         isa = "PBXFileReference";
+         path = "MongoClient.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_251" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+BulkWrite.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_252" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+ChangeStreams.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_253" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+FindAndModify.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_254" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+Indexes.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_255" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+Read.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_256" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+Write.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_257" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_258" = {
+         isa = "PBXFileReference";
+         path = "MongoCredential.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_259" = {
+         isa = "PBXFileReference";
+         path = "MongoCursor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "bson-json.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_260" = {
+         isa = "PBXFileReference";
+         path = "MongoDatabase.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_261" = {
+         isa = "PBXFileReference";
+         path = "MongoError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_262" = {
+         isa = "PBXFileReference";
+         path = "MongoNamespace.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_263" = {
+         isa = "PBXFileReference";
+         path = "MongoSwift.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_264" = {
+         isa = "PBXFileReference";
+         path = "MongoSwiftVersion.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_265" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_266",
+            "OBJ_267",
+            "OBJ_268",
+            "OBJ_269",
+            "OBJ_270",
+            "OBJ_271",
+            "OBJ_272",
+            "OBJ_273",
+            "OBJ_274",
+            "OBJ_275",
+            "OBJ_276",
+            "OBJ_277",
+            "OBJ_278",
+            "OBJ_279",
+            "OBJ_280",
+            "OBJ_281",
+            "OBJ_282",
+            "OBJ_283",
+            "OBJ_284",
+            "OBJ_285",
+            "OBJ_286",
+            "OBJ_287"
+         );
+         name = "Operations";
+         path = "Operations";
+         sourceTree = "<group>";
+      };
+      "OBJ_266" = {
+         isa = "PBXFileReference";
+         path = "AbortTransactionOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_267" = {
+         isa = "PBXFileReference";
+         path = "AggregateOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_268" = {
+         isa = "PBXFileReference";
+         path = "CommitTransactionOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_269" = {
+         isa = "PBXFileReference";
+         path = "CountDocumentsOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "bson-keys.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_270" = {
+         isa = "PBXFileReference";
+         path = "CreateCollectionOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_271" = {
+         isa = "PBXFileReference";
+         path = "CreateIndexesOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_272" = {
+         isa = "PBXFileReference";
+         path = "DistinctOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_273" = {
+         isa = "PBXFileReference";
+         path = "DropCollectionOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_274" = {
+         isa = "PBXFileReference";
+         path = "DropDatabaseOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_275" = {
+         isa = "PBXFileReference";
+         path = "DropIndexesOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_276" = {
+         isa = "PBXFileReference";
+         path = "EstimatedDocumentCountOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_277" = {
+         isa = "PBXFileReference";
+         path = "FindAndModifyOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_278" = {
+         isa = "PBXFileReference";
+         path = "FindOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_279" = {
+         isa = "PBXFileReference";
+         path = "ListCollectionsOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "bson-md5.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_280" = {
+         isa = "PBXFileReference";
+         path = "ListDatabasesOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_281" = {
+         isa = "PBXFileReference";
+         path = "ListIndexesOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_282" = {
+         isa = "PBXFileReference";
+         path = "MongocCommandHelpers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_283" = {
+         isa = "PBXFileReference";
+         path = "Operation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_284" = {
+         isa = "PBXFileReference";
+         path = "RunCommandOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_285" = {
+         isa = "PBXFileReference";
+         path = "StartSessionOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_286" = {
+         isa = "PBXFileReference";
+         path = "StartTransactionOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_287" = {
+         isa = "PBXFileReference";
+         path = "WatchOperation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_288" = {
+         isa = "PBXFileReference";
+         path = "ReadConcern.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_289" = {
+         isa = "PBXFileReference";
+         path = "ReadPreference.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_29" = {
+         isa = "PBXFileReference";
+         path = "bson-memory.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_290" = {
+         isa = "PBXFileReference";
+         path = "SDAM.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_291" = {
+         isa = "PBXFileReference";
+         path = "WriteConcern.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_292" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_293",
+            "OBJ_294",
+            "OBJ_295",
+            "OBJ_296",
+            "OBJ_297",
+            "OBJ_298",
+            "OBJ_299",
+            "OBJ_300",
+            "OBJ_301",
+            "OBJ_302",
+            "OBJ_303",
+            "OBJ_304",
+            "OBJ_305"
+         );
+         name = "MongoSwiftSync";
+         path = ".build/checkouts/mongo-swift-driver/Sources/MongoSwiftSync";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_293" = {
+         isa = "PBXFileReference";
+         path = "ChangeStream.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_294" = {
+         isa = "PBXFileReference";
+         path = "ClientSession.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_295" = {
+         isa = "PBXFileReference";
+         path = "CursorCommon.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_296" = {
+         isa = "PBXFileReference";
+         path = "Exports.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_297" = {
+         isa = "PBXFileReference";
+         path = "MongoClient.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_298" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+ChangeStreams.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_299" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+FindAndModify.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXFileReference";
+         path = "bson-oid.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_300" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+Indexes.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_301" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+Read.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_302" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection+Write.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_303" = {
+         isa = "PBXFileReference";
+         path = "MongoCollection.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_304" = {
+         isa = "PBXFileReference";
+         path = "MongoCursor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_305" = {
+         isa = "PBXFileReference";
+         path = "MongoDatabase.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_306" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/mlynn/code/swift/twitch/live/csvimport-swift/.build/checkouts/mongo-swift-driver/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_307" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_308",
+            "OBJ_314",
+            "OBJ_318",
+            "OBJ_319",
+            "OBJ_325",
+            "OBJ_329",
+            "OBJ_400",
+            "OBJ_404",
+            "OBJ_405",
+            "OBJ_406",
+            "OBJ_407",
+            "OBJ_408",
+            "OBJ_409",
+            "OBJ_410"
+         );
+         name = "swift-nio 2.22.0";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_308" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_309",
+            "OBJ_312"
+         );
+         name = "CNIOAtomics";
+         path = ".build/checkouts/swift-nio/Sources/CNIOAtomics";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_309" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_310",
+            "OBJ_311"
+         );
+         name = "src";
+         path = "src";
+         sourceTree = "<group>";
+      };
+      "OBJ_31" = {
+         isa = "PBXFileReference";
+         path = "bson-reader.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_310" = {
+         isa = "PBXFileReference";
+         path = "c-atomics.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_311" = {
+         isa = "PBXFileReference";
+         path = "c-nioatomics.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_312" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_313"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_313" = {
+         isa = "PBXFileReference";
+         path = "CNIOAtomics.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_314" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_315",
+            "OBJ_316"
+         );
+         name = "CNIODarwin";
+         path = ".build/checkouts/swift-nio/Sources/CNIODarwin";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_315" = {
+         isa = "PBXFileReference";
+         path = "shim.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_316" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_317"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_317" = {
+         isa = "PBXFileReference";
+         path = "CNIODarwin.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_318" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "CNIOHTTPParser";
+         path = ".build/checkouts/swift-nio/Sources/CNIOHTTPParser";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_319" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_320",
+            "OBJ_321",
+            "OBJ_322"
+         );
+         name = "CNIOLinux";
+         path = ".build/checkouts/swift-nio/Sources/CNIOLinux";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "bson-string.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_320" = {
+         isa = "PBXFileReference";
+         path = "ifaddrs-android.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_321" = {
+         isa = "PBXFileReference";
+         path = "shim.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_322" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_323",
+            "OBJ_324"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_323" = {
+         isa = "PBXFileReference";
+         path = "CNIOLinux.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_324" = {
+         isa = "PBXFileReference";
+         path = "ifaddrs-android.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_325" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_326",
+            "OBJ_327"
+         );
+         name = "CNIOSHA1";
+         path = ".build/checkouts/swift-nio/Sources/CNIOSHA1";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_326" = {
+         isa = "PBXFileReference";
+         path = "c_nio_sha1.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_327" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_328"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_328" = {
+         isa = "PBXFileReference";
+         path = "CNIOSHA1.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_329" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_330",
+            "OBJ_331",
+            "OBJ_332",
+            "OBJ_333",
+            "OBJ_334",
+            "OBJ_335",
+            "OBJ_336",
+            "OBJ_337",
+            "OBJ_338",
+            "OBJ_339",
+            "OBJ_340",
+            "OBJ_341",
+            "OBJ_342",
+            "OBJ_343",
+            "OBJ_344",
+            "OBJ_345",
+            "OBJ_346",
+            "OBJ_347",
+            "OBJ_348",
+            "OBJ_349",
+            "OBJ_350",
+            "OBJ_351",
+            "OBJ_352",
+            "OBJ_353",
+            "OBJ_354",
+            "OBJ_355",
+            "OBJ_356",
+            "OBJ_357",
+            "OBJ_358",
+            "OBJ_359",
+            "OBJ_360",
+            "OBJ_361",
+            "OBJ_362",
+            "OBJ_363",
+            "OBJ_364",
+            "OBJ_365",
+            "OBJ_366",
+            "OBJ_367",
+            "OBJ_368",
+            "OBJ_369",
+            "OBJ_370",
+            "OBJ_371",
+            "OBJ_372",
+            "OBJ_373",
+            "OBJ_374",
+            "OBJ_375",
+            "OBJ_376",
+            "OBJ_377",
+            "OBJ_378",
+            "OBJ_379",
+            "OBJ_380",
+            "OBJ_381",
+            "OBJ_382",
+            "OBJ_383",
+            "OBJ_384",
+            "OBJ_385",
+            "OBJ_386",
+            "OBJ_387",
+            "OBJ_388",
+            "OBJ_389",
+            "OBJ_390",
+            "OBJ_391",
+            "OBJ_392",
+            "OBJ_393",
+            "OBJ_394",
+            "OBJ_395",
+            "OBJ_396",
+            "OBJ_397",
+            "OBJ_398",
+            "OBJ_399"
+         );
+         name = "NIO";
+         path = ".build/checkouts/swift-nio/Sources/NIO";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "bson-timegm.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_330" = {
+         isa = "PBXFileReference";
+         path = "AddressedEnvelope.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_331" = {
+         isa = "PBXFileReference";
+         path = "BSDSocketAPI.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_332" = {
+         isa = "PBXFileReference";
+         path = "BSDSocketAPIPosix.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_333" = {
+         isa = "PBXFileReference";
+         path = "BSDSocketAPIWindows.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_334" = {
+         isa = "PBXFileReference";
+         path = "BaseSocket.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_335" = {
+         isa = "PBXFileReference";
+         path = "BaseSocketChannel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_336" = {
+         isa = "PBXFileReference";
+         path = "BaseStreamSocketChannel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_337" = {
+         isa = "PBXFileReference";
+         path = "Bootstrap.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_338" = {
+         isa = "PBXFileReference";
+         path = "ByteBuffer-aux.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_339" = {
+         isa = "PBXFileReference";
+         path = "ByteBuffer-conversions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "bson-utf8.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_340" = {
+         isa = "PBXFileReference";
+         path = "ByteBuffer-core.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_341" = {
+         isa = "PBXFileReference";
+         path = "ByteBuffer-int.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_342" = {
+         isa = "PBXFileReference";
+         path = "ByteBuffer-views.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_343" = {
+         isa = "PBXFileReference";
+         path = "Channel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_344" = {
+         isa = "PBXFileReference";
+         path = "ChannelHandler.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_345" = {
+         isa = "PBXFileReference";
+         path = "ChannelHandlers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_346" = {
+         isa = "PBXFileReference";
+         path = "ChannelInvoker.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_347" = {
+         isa = "PBXFileReference";
+         path = "ChannelOption.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_348" = {
+         isa = "PBXFileReference";
+         path = "ChannelPipeline.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_349" = {
+         isa = "PBXFileReference";
+         path = "CircularBuffer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "bson-value.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_350" = {
+         isa = "PBXFileReference";
+         path = "Codec.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_351" = {
+         isa = "PBXFileReference";
+         path = "ControlMessage.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_352" = {
+         isa = "PBXFileReference";
+         path = "ConvenienceOptionSupport.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_353" = {
+         isa = "PBXFileReference";
+         path = "DatagramVectorReadManager.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_354" = {
+         isa = "PBXFileReference";
+         path = "DeadChannel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_355" = {
+         isa = "PBXFileReference";
+         path = "Embedded.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_356" = {
+         isa = "PBXFileReference";
+         path = "EventLoop.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_357" = {
+         isa = "PBXFileReference";
+         path = "EventLoopFuture.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_358" = {
+         isa = "PBXFileReference";
+         path = "FileDescriptor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_359" = {
+         isa = "PBXFileReference";
+         path = "FileHandle.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "bson-version-functions.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_360" = {
+         isa = "PBXFileReference";
+         path = "FileRegion.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_361" = {
+         isa = "PBXFileReference";
+         path = "GetaddrinfoResolver.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_362" = {
+         isa = "PBXFileReference";
+         path = "HappyEyeballs.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_363" = {
+         isa = "PBXFileReference";
+         path = "Heap.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_364" = {
+         isa = "PBXFileReference";
+         path = "IO.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_365" = {
+         isa = "PBXFileReference";
+         path = "IOData.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_366" = {
+         isa = "PBXFileReference";
+         path = "IntegerTypes.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_367" = {
+         isa = "PBXFileReference";
+         path = "Interfaces.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_368" = {
+         isa = "PBXFileReference";
+         path = "Linux.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_369" = {
+         isa = "PBXFileReference";
+         path = "LinuxCPUSet.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_37" = {
+         isa = "PBXFileReference";
+         path = "bson-writer.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_370" = {
+         isa = "PBXFileReference";
+         path = "MarkedCircularBuffer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_371" = {
+         isa = "PBXFileReference";
+         path = "MulticastChannel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_372" = {
+         isa = "PBXFileReference";
+         path = "NIOAny.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_373" = {
+         isa = "PBXFileReference";
+         path = "NIOCloseOnErrorHandler.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_374" = {
+         isa = "PBXFileReference";
+         path = "NIOThreadPool.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_375" = {
+         isa = "PBXFileReference";
+         path = "NonBlockingFileIO.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_376" = {
+         isa = "PBXFileReference";
+         path = "PendingDatagramWritesManager.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_377" = {
+         isa = "PBXFileReference";
+         path = "PendingWritesManager.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_378" = {
+         isa = "PBXFileReference";
+         path = "PipeChannel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_379" = {
+         isa = "PBXFileReference";
+         path = "PipePair.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_38" = {
+         isa = "PBXFileReference";
+         path = "bson.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_380" = {
+         isa = "PBXFileReference";
+         path = "PriorityQueue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_381" = {
+         isa = "PBXFileReference";
+         path = "RecvByteBufferAllocator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_382" = {
+         isa = "PBXFileReference";
+         path = "Resolver.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_383" = {
+         isa = "PBXFileReference";
+         path = "Selectable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_384" = {
+         isa = "PBXFileReference";
+         path = "SelectableEventLoop.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_385" = {
+         isa = "PBXFileReference";
+         path = "Selector.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_386" = {
+         isa = "PBXFileReference";
+         path = "ServerSocket.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_387" = {
+         isa = "PBXFileReference";
+         path = "SingleStepByteToMessageDecoder.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_388" = {
+         isa = "PBXFileReference";
+         path = "Socket.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_389" = {
+         isa = "PBXFileReference";
+         path = "SocketAddresses.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         path = "jsonsl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_390" = {
+         isa = "PBXFileReference";
+         path = "SocketChannel.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_391" = {
+         isa = "PBXFileReference";
+         path = "SocketOptionProvider.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_392" = {
+         isa = "PBXFileReference";
+         path = "SocketProtocols.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_393" = {
+         isa = "PBXFileReference";
+         path = "System.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_394" = {
+         isa = "PBXFileReference";
+         path = "Thread.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_395" = {
+         isa = "PBXFileReference";
+         path = "ThreadPosix.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_396" = {
+         isa = "PBXFileReference";
+         path = "ThreadWindows.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_397" = {
+         isa = "PBXFileReference";
+         path = "TypeAssistedChannelHandler.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_398" = {
+         isa = "PBXFileReference";
+         path = "UniversalBootstrapSupport.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_399" = {
+         isa = "PBXFileReference";
+         path = "Utilities.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_41",
+            "OBJ_42"
+         );
+         name = "common";
+         path = "common";
+         sourceTree = "<group>";
+      };
+      "OBJ_400" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_401",
+            "OBJ_402",
+            "OBJ_403"
+         );
+         name = "NIOConcurrencyHelpers";
+         path = ".build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_401" = {
+         isa = "PBXFileReference";
+         path = "NIOAtomic.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_402" = {
+         isa = "PBXFileReference";
+         path = "atomics.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_403" = {
+         isa = "PBXFileReference";
+         path = "lock.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_404" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "NIOFoundationCompat";
+         path = ".build/checkouts/swift-nio/Sources/NIOFoundationCompat";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_405" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "NIOHTTP1";
+         path = ".build/checkouts/swift-nio/Sources/NIOHTTP1";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_406" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "NIOTLS";
+         path = ".build/checkouts/swift-nio/Sources/NIOTLS";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_407" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "NIOTestUtils";
+         path = ".build/checkouts/swift-nio/Sources/NIOTestUtils";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_408" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "NIOWebSocket";
+         path = ".build/checkouts/swift-nio/Sources/NIOWebSocket";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_409" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "_NIO1APIShims";
+         path = ".build/checkouts/swift-nio/Sources/_NIO1APIShims";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_41" = {
+         isa = "PBXFileReference";
+         path = "common-b64.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_410" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/mlynn/code/swift/twitch/live/csvimport-swift/.build/checkouts/swift-nio/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_411" = {
+         isa = "PBXGroup";
+         children = (
+            "csvimport-swift::csvimport-swiftTests::Product",
+            "mongo-swift-driver::MongoSwift::Product",
+            "swift-nio::CNIODarwin::Product",
+            "swift-nio::CNIOAtomics::Product",
+            "swift-nio::CNIOSHA1::Product",
+            "swift-nio::CNIOLinux::Product",
+            "csvimport-swift::csvimport-swift::Product",
+            "mongo-swift-driver::MongoSwiftSync::Product",
+            "mongo-swift-driver::CLibMongoC::Product",
+            "swift-nio::NIO::Product",
+            "swift-nio::NIOConcurrencyHelpers::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "common-md5.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_423" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_424" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_426" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_427",
+            "OBJ_428"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_427" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CLibMongoC_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.14";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+               "-lresolv"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CLibMongoC";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CLibMongoC";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_428" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CLibMongoC_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.14";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+               "-lresolv"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CLibMongoC";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CLibMongoC";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_429" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_430",
+            "OBJ_431",
+            "OBJ_432",
+            "OBJ_433",
+            "OBJ_434",
+            "OBJ_435",
+            "OBJ_436",
+            "OBJ_437",
+            "OBJ_438",
+            "OBJ_439",
+            "OBJ_440",
+            "OBJ_441",
+            "OBJ_442",
+            "OBJ_443",
+            "OBJ_444",
+            "OBJ_445",
+            "OBJ_446",
+            "OBJ_447",
+            "OBJ_448",
+            "OBJ_449",
+            "OBJ_450",
+            "OBJ_451",
+            "OBJ_452",
+            "OBJ_453",
+            "OBJ_454",
+            "OBJ_455",
+            "OBJ_456",
+            "OBJ_457",
+            "OBJ_458",
+            "OBJ_459",
+            "OBJ_460",
+            "OBJ_461",
+            "OBJ_462",
+            "OBJ_463",
+            "OBJ_464",
+            "OBJ_465",
+            "OBJ_466",
+            "OBJ_467",
+            "OBJ_468",
+            "OBJ_469",
+            "OBJ_470",
+            "OBJ_471",
+            "OBJ_472",
+            "OBJ_473",
+            "OBJ_474",
+            "OBJ_475",
+            "OBJ_476",
+            "OBJ_477",
+            "OBJ_478",
+            "OBJ_479",
+            "OBJ_480",
+            "OBJ_481",
+            "OBJ_482",
+            "OBJ_483",
+            "OBJ_484",
+            "OBJ_485",
+            "OBJ_486",
+            "OBJ_487",
+            "OBJ_488",
+            "OBJ_489",
+            "OBJ_490",
+            "OBJ_491",
+            "OBJ_492",
+            "OBJ_493",
+            "OBJ_494",
+            "OBJ_495",
+            "OBJ_496",
+            "OBJ_497",
+            "OBJ_498",
+            "OBJ_499",
+            "OBJ_500",
+            "OBJ_501",
+            "OBJ_502",
+            "OBJ_503",
+            "OBJ_504",
+            "OBJ_505",
+            "OBJ_506",
+            "OBJ_507",
+            "OBJ_508",
+            "OBJ_509",
+            "OBJ_510",
+            "OBJ_511",
+            "OBJ_512",
+            "OBJ_513",
+            "OBJ_514",
+            "OBJ_515",
+            "OBJ_516",
+            "OBJ_517",
+            "OBJ_518",
+            "OBJ_519",
+            "OBJ_520",
+            "OBJ_521",
+            "OBJ_522",
+            "OBJ_523",
+            "OBJ_524",
+            "OBJ_525",
+            "OBJ_526",
+            "OBJ_527",
+            "OBJ_528",
+            "OBJ_529",
+            "OBJ_530",
+            "OBJ_531",
+            "OBJ_532",
+            "OBJ_533",
+            "OBJ_534",
+            "OBJ_535",
+            "OBJ_536",
+            "OBJ_537",
+            "OBJ_538",
+            "OBJ_539",
+            "OBJ_540",
+            "OBJ_541",
+            "OBJ_542",
+            "OBJ_543",
+            "OBJ_544",
+            "OBJ_545",
+            "OBJ_546",
+            "OBJ_547",
+            "OBJ_548",
+            "OBJ_549",
+            "OBJ_550",
+            "OBJ_551"
+         );
+      };
+      "OBJ_43" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_44",
+            "OBJ_45",
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_52",
+            "OBJ_53",
+            "OBJ_54",
+            "OBJ_55",
+            "OBJ_56",
+            "OBJ_57",
+            "OBJ_58",
+            "OBJ_59",
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_62",
+            "OBJ_63",
+            "OBJ_64",
+            "OBJ_65",
+            "OBJ_66",
+            "OBJ_67",
+            "OBJ_68",
+            "OBJ_69",
+            "OBJ_70",
+            "OBJ_71",
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75",
+            "OBJ_76",
+            "OBJ_77",
+            "OBJ_78",
+            "OBJ_79",
+            "OBJ_80",
+            "OBJ_81",
+            "OBJ_82",
+            "OBJ_83",
+            "OBJ_84",
+            "OBJ_85",
+            "OBJ_86",
+            "OBJ_87",
+            "OBJ_88",
+            "OBJ_89",
+            "OBJ_90",
+            "OBJ_91",
+            "OBJ_92",
+            "OBJ_93",
+            "OBJ_94",
+            "OBJ_95",
+            "OBJ_96",
+            "OBJ_97",
+            "OBJ_98",
+            "OBJ_99",
+            "OBJ_100",
+            "OBJ_101",
+            "OBJ_102",
+            "OBJ_103",
+            "OBJ_104",
+            "OBJ_105",
+            "OBJ_106",
+            "OBJ_107",
+            "OBJ_108",
+            "OBJ_109",
+            "OBJ_110",
+            "OBJ_111",
+            "OBJ_112",
+            "OBJ_113",
+            "OBJ_114",
+            "OBJ_115",
+            "OBJ_116",
+            "OBJ_117",
+            "OBJ_118",
+            "OBJ_119",
+            "OBJ_120",
+            "OBJ_121",
+            "OBJ_122",
+            "OBJ_123",
+            "OBJ_124",
+            "OBJ_125",
+            "OBJ_126",
+            "OBJ_127",
+            "OBJ_128",
+            "OBJ_129",
+            "OBJ_130",
+            "OBJ_131",
+            "OBJ_132",
+            "OBJ_133",
+            "OBJ_134",
+            "OBJ_135",
+            "OBJ_136",
+            "OBJ_137",
+            "OBJ_138",
+            "OBJ_139",
+            "OBJ_140",
+            "OBJ_141"
+         );
+         name = "mongoc";
+         path = "mongoc";
+         sourceTree = "<group>";
+      };
+      "OBJ_430" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+      };
+      "OBJ_431" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_432" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_433" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+      };
+      "OBJ_434" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_435" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_436" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_437" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_438" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+      };
+      "OBJ_439" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_44" = {
+         isa = "PBXFileReference";
+         path = "mongoc-aggregate.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_440" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+      };
+      "OBJ_441" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_442" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
+      };
+      "OBJ_443" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_31";
+      };
+      "OBJ_444" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
+      };
+      "OBJ_445" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
+      };
+      "OBJ_446" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_34";
+      };
+      "OBJ_447" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
+      };
+      "OBJ_448" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_36";
+      };
+      "OBJ_449" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_37";
+      };
+      "OBJ_45" = {
+         isa = "PBXFileReference";
+         path = "mongoc-apm.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_450" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_38";
+      };
+      "OBJ_451" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_452" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_41";
+      };
+      "OBJ_453" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_42";
+      };
+      "OBJ_454" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_44";
+      };
+      "OBJ_455" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_45";
+      };
+      "OBJ_456" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_46";
+      };
+      "OBJ_457" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+      "OBJ_458" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_459" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_49";
+      };
+      "OBJ_46" = {
+         isa = "PBXFileReference";
+         path = "mongoc-array.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_460" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_461" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_51";
+      };
+      "OBJ_462" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
+      };
+      "OBJ_463" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_53";
+      };
+      "OBJ_464" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_465" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_55";
+      };
+      "OBJ_466" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
+      };
+      "OBJ_467" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_57";
+      };
+      "OBJ_468" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
+      };
+      "OBJ_469" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_59";
+      };
+      "OBJ_47" = {
+         isa = "PBXFileReference";
+         path = "mongoc-async-cmd.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_470" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_60";
+      };
+      "OBJ_471" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_61";
+      };
+      "OBJ_472" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_62";
+      };
+      "OBJ_473" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_63";
+      };
+      "OBJ_474" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_64";
+      };
+      "OBJ_475" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_65";
+      };
+      "OBJ_476" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_66";
+      };
+      "OBJ_477" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_67";
+      };
+      "OBJ_478" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_68";
+      };
+      "OBJ_479" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_69";
+      };
+      "OBJ_48" = {
+         isa = "PBXFileReference";
+         path = "mongoc-async.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_480" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_70";
+      };
+      "OBJ_481" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_71";
+      };
+      "OBJ_482" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_72";
+      };
+      "OBJ_483" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_73";
+      };
+      "OBJ_484" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_74";
+      };
+      "OBJ_485" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_75";
+      };
+      "OBJ_486" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_76";
+      };
+      "OBJ_487" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_77";
+      };
+      "OBJ_488" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_78";
+      };
+      "OBJ_489" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_79";
+      };
+      "OBJ_49" = {
+         isa = "PBXFileReference";
+         path = "mongoc-buffer.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_490" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_80";
+      };
+      "OBJ_491" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_81";
+      };
+      "OBJ_492" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_82";
+      };
+      "OBJ_493" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_83";
+      };
+      "OBJ_494" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_84";
+      };
+      "OBJ_495" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_85";
+      };
+      "OBJ_496" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_86";
+      };
+      "OBJ_497" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_87";
+      };
+      "OBJ_498" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_88";
+      };
+      "OBJ_499" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_89";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_10",
+            "OBJ_14",
+            "OBJ_411",
+            "OBJ_423",
+            "OBJ_424"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXFileReference";
+         path = "mongoc-bulk-operation.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_500" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_90";
+      };
+      "OBJ_501" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_91";
+      };
+      "OBJ_502" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_92";
+      };
+      "OBJ_503" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_93";
+      };
+      "OBJ_504" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_94";
+      };
+      "OBJ_505" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_95";
+      };
+      "OBJ_506" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_96";
+      };
+      "OBJ_507" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_97";
+      };
+      "OBJ_508" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_98";
+      };
+      "OBJ_509" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_99";
+      };
+      "OBJ_51" = {
+         isa = "PBXFileReference";
+         path = "mongoc-change-stream.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_510" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_100";
+      };
+      "OBJ_511" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_101";
+      };
+      "OBJ_512" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_102";
+      };
+      "OBJ_513" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_103";
+      };
+      "OBJ_514" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_104";
+      };
+      "OBJ_515" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_105";
+      };
+      "OBJ_516" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_106";
+      };
+      "OBJ_517" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_107";
+      };
+      "OBJ_518" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_108";
+      };
+      "OBJ_519" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_109";
+      };
+      "OBJ_52" = {
+         isa = "PBXFileReference";
+         path = "mongoc-client-pool.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_520" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_110";
+      };
+      "OBJ_521" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_111";
+      };
+      "OBJ_522" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_112";
+      };
+      "OBJ_523" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_113";
+      };
+      "OBJ_524" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_114";
+      };
+      "OBJ_525" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_115";
+      };
+      "OBJ_526" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_116";
+      };
+      "OBJ_527" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_117";
+      };
+      "OBJ_528" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_118";
+      };
+      "OBJ_529" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_119";
+      };
+      "OBJ_53" = {
+         isa = "PBXFileReference";
+         path = "mongoc-client-session.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_530" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_120";
+      };
+      "OBJ_531" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_121";
+      };
+      "OBJ_532" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_122";
+      };
+      "OBJ_533" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_123";
+      };
+      "OBJ_534" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_124";
+      };
+      "OBJ_535" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_125";
+      };
+      "OBJ_536" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_126";
+      };
+      "OBJ_537" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_127";
+      };
+      "OBJ_538" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_128";
+      };
+      "OBJ_539" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_129";
+      };
+      "OBJ_54" = {
+         isa = "PBXFileReference";
+         path = "mongoc-client-side-encryption.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_540" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_130";
+      };
+      "OBJ_541" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_131";
+      };
+      "OBJ_542" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_132";
+      };
+      "OBJ_543" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_133";
+      };
+      "OBJ_544" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_134";
+      };
+      "OBJ_545" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_135";
+      };
+      "OBJ_546" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_136";
+      };
+      "OBJ_547" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_137";
+      };
+      "OBJ_548" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_138";
+      };
+      "OBJ_549" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_139";
+      };
+      "OBJ_55" = {
+         isa = "PBXFileReference";
+         path = "mongoc-client.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_550" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_140";
+      };
+      "OBJ_551" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_141";
+      };
+      "OBJ_552" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_553",
+            "OBJ_554",
+            "OBJ_555",
+            "OBJ_556",
+            "OBJ_557",
+            "OBJ_558",
+            "OBJ_559",
+            "OBJ_560",
+            "OBJ_561",
+            "OBJ_562",
+            "OBJ_563",
+            "OBJ_564",
+            "OBJ_565",
+            "OBJ_566",
+            "OBJ_567",
+            "OBJ_568",
+            "OBJ_569",
+            "OBJ_570",
+            "OBJ_571",
+            "OBJ_572",
+            "OBJ_573",
+            "OBJ_574",
+            "OBJ_575",
+            "OBJ_576",
+            "OBJ_577",
+            "OBJ_578",
+            "OBJ_579",
+            "OBJ_580",
+            "OBJ_581",
+            "OBJ_582",
+            "OBJ_583",
+            "OBJ_584",
+            "OBJ_585",
+            "OBJ_586",
+            "OBJ_587",
+            "OBJ_588",
+            "OBJ_589",
+            "OBJ_590",
+            "OBJ_591",
+            "OBJ_592",
+            "OBJ_593",
+            "OBJ_594",
+            "OBJ_595",
+            "OBJ_596",
+            "OBJ_597",
+            "OBJ_598",
+            "OBJ_599",
+            "OBJ_600",
+            "OBJ_601",
+            "OBJ_602",
+            "OBJ_603",
+            "OBJ_604",
+            "OBJ_605",
+            "OBJ_606",
+            "OBJ_607",
+            "OBJ_608",
+            "OBJ_609",
+            "OBJ_610",
+            "OBJ_611",
+            "OBJ_612",
+            "OBJ_613",
+            "OBJ_614",
+            "OBJ_615",
+            "OBJ_616",
+            "OBJ_617",
+            "OBJ_618",
+            "OBJ_619",
+            "OBJ_620",
+            "OBJ_621",
+            "OBJ_622",
+            "OBJ_623",
+            "OBJ_624",
+            "OBJ_625",
+            "OBJ_626",
+            "OBJ_627",
+            "OBJ_628",
+            "OBJ_629",
+            "OBJ_630",
+            "OBJ_631",
+            "OBJ_632",
+            "OBJ_633",
+            "OBJ_634"
+         );
+      };
+      "OBJ_553" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_143";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_554" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_144";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_555" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_145";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_556" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_146";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_557" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_147";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_558" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_148";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_559" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_149";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_56" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cluster-cyrus.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_560" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_150";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_561" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_151";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_562" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_152";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_563" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_153";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_564" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_154";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_565" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_155";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_566" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_156";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_567" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_157";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_568" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_158";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_569" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_159";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_57" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cluster-sasl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_570" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_160";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_571" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_161";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_572" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_162";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_573" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_163";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_574" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_164";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_575" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_165";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_576" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_166";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_577" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_167";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_578" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_168";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_579" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_169";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_58" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cluster-sspi.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_580" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_170";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_581" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_171";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_582" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_172";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_583" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_173";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_584" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_174";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_585" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_175";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_586" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_176";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_587" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_177";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_588" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_178";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_589" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_179";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_59" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cluster.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_590" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_180";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_591" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_181";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_592" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_182";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_593" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_183";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_594" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_184";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_595" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_185";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_596" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_186";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_597" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_187";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_598" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_188";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_599" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_189";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cmd.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_600" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_190";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_601" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_191";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_602" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_192";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_603" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_193";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_604" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_194";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_605" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_195";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_606" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_196";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_607" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_197";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_608" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_198";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_609" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_199";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_61" = {
+         isa = "PBXFileReference";
+         path = "mongoc-collection.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_610" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_200";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_611" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_201";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_612" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_202";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_613" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_203";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_614" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_204";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_615" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_205";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_616" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_206";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_617" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_207";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_618" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_208";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_619" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_209";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_62" = {
+         isa = "PBXFileReference";
+         path = "mongoc-compression.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_620" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_210";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_621" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_211";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_622" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_212";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_623" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_213";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_624" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_214";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_625" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_215";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_626" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_216";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_627" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_217";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_628" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_218";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_629" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_219";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_63" = {
+         isa = "PBXFileReference";
+         path = "mongoc-counters.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_630" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_220";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_631" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_221";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_632" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_222";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_633" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_223";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_634" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_224";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_635" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_637" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_638",
+            "OBJ_639"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_638" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIOAtomics_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIOAtomics";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIOAtomics";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_639" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIOAtomics_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIOAtomics";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIOAtomics";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_64" = {
+         isa = "PBXFileReference";
+         path = "mongoc-crypt.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_640" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_641",
+            "OBJ_642"
+         );
+      };
+      "OBJ_641" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_310";
+      };
+      "OBJ_642" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_311";
+      };
+      "OBJ_643" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_644"
+         );
+      };
+      "OBJ_644" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_313";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_645" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_647" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_648",
+            "OBJ_649"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_648" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIODarwin_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIODarwin";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIODarwin";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_649" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIODarwin_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIODarwin";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIODarwin";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_65" = {
+         isa = "PBXFileReference";
+         path = "mongoc-crypto-cng.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_650" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_651"
+         );
+      };
+      "OBJ_651" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_315";
+      };
+      "OBJ_652" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_653"
+         );
+      };
+      "OBJ_653" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_317";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_654" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_656" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_657",
+            "OBJ_658"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_657" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIOLinux_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIOLinux";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIOLinux";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_658" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIOLinux_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIOLinux";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIOLinux";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_659" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_660",
+            "OBJ_661"
+         );
+      };
+      "OBJ_66" = {
+         isa = "PBXFileReference";
+         path = "mongoc-crypto-common-crypto.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_660" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_320";
+      };
+      "OBJ_661" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_321";
+      };
+      "OBJ_662" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_663",
+            "OBJ_664"
+         );
+      };
+      "OBJ_663" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_323";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_664" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_324";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_665" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_667" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_668",
+            "OBJ_669"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_668" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIOSHA1_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIOSHA1";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIOSHA1";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_669" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/CNIOSHA1_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CNIOSHA1";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CNIOSHA1";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_67" = {
+         isa = "PBXFileReference";
+         path = "mongoc-crypto-openssl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_670" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_671"
+         );
+      };
+      "OBJ_671" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_326";
+      };
+      "OBJ_672" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_673"
+         );
+      };
+      "OBJ_673" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_328";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_674" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_676" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_677",
+            "OBJ_678"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_677" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/MongoSwift_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.14";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "MongoSwift";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MongoSwift";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_678" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/MongoSwift_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.14";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "MongoSwift";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MongoSwift";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_679" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_680",
+            "OBJ_681",
+            "OBJ_682",
+            "OBJ_683",
+            "OBJ_684",
+            "OBJ_685",
+            "OBJ_686",
+            "OBJ_687",
+            "OBJ_688",
+            "OBJ_689",
+            "OBJ_690",
+            "OBJ_691",
+            "OBJ_692",
+            "OBJ_693",
+            "OBJ_694",
+            "OBJ_695",
+            "OBJ_696",
+            "OBJ_697",
+            "OBJ_698",
+            "OBJ_699",
+            "OBJ_700",
+            "OBJ_701",
+            "OBJ_702",
+            "OBJ_703",
+            "OBJ_704",
+            "OBJ_705",
+            "OBJ_706",
+            "OBJ_707",
+            "OBJ_708",
+            "OBJ_709",
+            "OBJ_710",
+            "OBJ_711",
+            "OBJ_712",
+            "OBJ_713",
+            "OBJ_714",
+            "OBJ_715",
+            "OBJ_716",
+            "OBJ_717",
+            "OBJ_718",
+            "OBJ_719",
+            "OBJ_720",
+            "OBJ_721",
+            "OBJ_722",
+            "OBJ_723",
+            "OBJ_724",
+            "OBJ_725",
+            "OBJ_726",
+            "OBJ_727",
+            "OBJ_728",
+            "OBJ_729",
+            "OBJ_730",
+            "OBJ_731",
+            "OBJ_732",
+            "OBJ_733",
+            "OBJ_734",
+            "OBJ_735",
+            "OBJ_736",
+            "OBJ_737",
+            "OBJ_738",
+            "OBJ_739",
+            "OBJ_740",
+            "OBJ_741",
+            "OBJ_742",
+            "OBJ_743"
+         );
+      };
+      "OBJ_68" = {
+         isa = "PBXFileReference";
+         path = "mongoc-crypto.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_680" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_226";
+      };
+      "OBJ_681" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_228";
+      };
+      "OBJ_682" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_229";
+      };
+      "OBJ_683" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_230";
+      };
+      "OBJ_684" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_231";
+      };
+      "OBJ_685" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_232";
+      };
+      "OBJ_686" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_233";
+      };
+      "OBJ_687" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_234";
+      };
+      "OBJ_688" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_235";
+      };
+      "OBJ_689" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_236";
+      };
+      "OBJ_69" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-array.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_690" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_237";
+      };
+      "OBJ_691" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_238";
+      };
+      "OBJ_692" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_239";
+      };
+      "OBJ_693" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_240";
+      };
+      "OBJ_694" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_241";
+      };
+      "OBJ_695" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_242";
+      };
+      "OBJ_696" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_243";
+      };
+      "OBJ_697" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_244";
+      };
+      "OBJ_698" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_245";
+      };
+      "OBJ_699" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_246";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-change-stream.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_700" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_247";
+      };
+      "OBJ_701" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_248";
+      };
+      "OBJ_702" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_249";
+      };
+      "OBJ_703" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_250";
+      };
+      "OBJ_704" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_251";
+      };
+      "OBJ_705" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_252";
+      };
+      "OBJ_706" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_253";
+      };
+      "OBJ_707" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_254";
+      };
+      "OBJ_708" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_255";
+      };
+      "OBJ_709" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_256";
+      };
+      "OBJ_71" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-cmd-deprecated.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_710" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_257";
+      };
+      "OBJ_711" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_258";
+      };
+      "OBJ_712" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_259";
+      };
+      "OBJ_713" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_260";
+      };
+      "OBJ_714" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_261";
+      };
+      "OBJ_715" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_262";
+      };
+      "OBJ_716" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_263";
+      };
+      "OBJ_717" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_264";
+      };
+      "OBJ_718" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_266";
+      };
+      "OBJ_719" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_267";
+      };
+      "OBJ_72" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-cmd.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_720" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_268";
+      };
+      "OBJ_721" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_269";
+      };
+      "OBJ_722" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_270";
+      };
+      "OBJ_723" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_271";
+      };
+      "OBJ_724" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_272";
+      };
+      "OBJ_725" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_273";
+      };
+      "OBJ_726" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_274";
+      };
+      "OBJ_727" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_275";
+      };
+      "OBJ_728" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_276";
+      };
+      "OBJ_729" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_277";
+      };
+      "OBJ_73" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-find-cmd.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_730" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_278";
+      };
+      "OBJ_731" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_279";
+      };
+      "OBJ_732" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_280";
+      };
+      "OBJ_733" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_281";
+      };
+      "OBJ_734" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_282";
+      };
+      "OBJ_735" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_283";
+      };
+      "OBJ_736" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_284";
+      };
+      "OBJ_737" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_285";
+      };
+      "OBJ_738" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_286";
+      };
+      "OBJ_739" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_287";
+      };
+      "OBJ_74" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-find-opquery.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_740" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_288";
+      };
+      "OBJ_741" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_289";
+      };
+      "OBJ_742" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_290";
+      };
+      "OBJ_743" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_291";
+      };
+      "OBJ_744" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_745",
+            "OBJ_746",
+            "OBJ_747",
+            "OBJ_748",
+            "OBJ_749",
+            "OBJ_750",
+            "OBJ_751"
+         );
+      };
+      "OBJ_745" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIO::Product";
+      };
+      "OBJ_746" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOSHA1::Product";
+      };
+      "OBJ_747" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIOConcurrencyHelpers::Product";
+      };
+      "OBJ_748" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOAtomics::Product";
+      };
+      "OBJ_749" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIODarwin::Product";
+      };
+      "OBJ_75" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-find.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_750" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOLinux::Product";
+      };
+      "OBJ_751" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::CLibMongoC::Product";
+      };
+      "OBJ_752" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIO";
+      };
+      "OBJ_754" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOSHA1";
+      };
+      "OBJ_755" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIOConcurrencyHelpers";
+      };
+      "OBJ_757" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOAtomics";
+      };
+      "OBJ_758" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIODarwin";
+      };
+      "OBJ_759" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOLinux";
+      };
+      "OBJ_76" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor-legacy.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_760" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::CLibMongoC";
+      };
+      "OBJ_762" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_763",
+            "OBJ_764"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_763" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/MongoSwiftSync_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.14";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "MongoSwiftSync";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MongoSwiftSync";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_764" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/MongoSwiftSync_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.14";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "MongoSwiftSync";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MongoSwiftSync";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_765" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_766",
+            "OBJ_767",
+            "OBJ_768",
+            "OBJ_769",
+            "OBJ_770",
+            "OBJ_771",
+            "OBJ_772",
+            "OBJ_773",
+            "OBJ_774",
+            "OBJ_775",
+            "OBJ_776",
+            "OBJ_777",
+            "OBJ_778"
+         );
+      };
+      "OBJ_766" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_293";
+      };
+      "OBJ_767" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_294";
+      };
+      "OBJ_768" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_295";
+      };
+      "OBJ_769" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_296";
+      };
+      "OBJ_77" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cursor.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_770" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_297";
+      };
+      "OBJ_771" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_298";
+      };
+      "OBJ_772" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_299";
+      };
+      "OBJ_773" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_300";
+      };
+      "OBJ_774" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_301";
+      };
+      "OBJ_775" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_302";
+      };
+      "OBJ_776" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_303";
+      };
+      "OBJ_777" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_304";
+      };
+      "OBJ_778" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_305";
+      };
+      "OBJ_779" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_780",
+            "OBJ_781",
+            "OBJ_782",
+            "OBJ_783",
+            "OBJ_784",
+            "OBJ_785",
+            "OBJ_786",
+            "OBJ_787"
+         );
+      };
+      "OBJ_78" = {
+         isa = "PBXFileReference";
+         path = "mongoc-cyrus.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_780" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::MongoSwift::Product";
+      };
+      "OBJ_781" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIO::Product";
+      };
+      "OBJ_782" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOSHA1::Product";
+      };
+      "OBJ_783" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIOConcurrencyHelpers::Product";
+      };
+      "OBJ_784" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOAtomics::Product";
+      };
+      "OBJ_785" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIODarwin::Product";
+      };
+      "OBJ_786" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOLinux::Product";
+      };
+      "OBJ_787" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::CLibMongoC::Product";
+      };
+      "OBJ_788" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::MongoSwift";
+      };
+      "OBJ_789" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIO";
+      };
+      "OBJ_79" = {
+         isa = "PBXFileReference";
+         path = "mongoc-database.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_790" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOSHA1";
+      };
+      "OBJ_791" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIOConcurrencyHelpers";
+      };
+      "OBJ_792" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOAtomics";
+      };
+      "OBJ_793" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIODarwin";
+      };
+      "OBJ_794" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOLinux";
+      };
+      "OBJ_795" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::CLibMongoC";
+      };
+      "OBJ_796" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_797",
+            "OBJ_798"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_797" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/NIO_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "NIO";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "NIO";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_798" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/NIO_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "NIO";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "NIO";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_799" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_800",
+            "OBJ_801",
+            "OBJ_802",
+            "OBJ_803",
+            "OBJ_804",
+            "OBJ_805",
+            "OBJ_806",
+            "OBJ_807",
+            "OBJ_808",
+            "OBJ_809",
+            "OBJ_810",
+            "OBJ_811",
+            "OBJ_812",
+            "OBJ_813",
+            "OBJ_814",
+            "OBJ_815",
+            "OBJ_816",
+            "OBJ_817",
+            "OBJ_818",
+            "OBJ_819",
+            "OBJ_820",
+            "OBJ_821",
+            "OBJ_822",
+            "OBJ_823",
+            "OBJ_824",
+            "OBJ_825",
+            "OBJ_826",
+            "OBJ_827",
+            "OBJ_828",
+            "OBJ_829",
+            "OBJ_830",
+            "OBJ_831",
+            "OBJ_832",
+            "OBJ_833",
+            "OBJ_834",
+            "OBJ_835",
+            "OBJ_836",
+            "OBJ_837",
+            "OBJ_838",
+            "OBJ_839",
+            "OBJ_840",
+            "OBJ_841",
+            "OBJ_842",
+            "OBJ_843",
+            "OBJ_844",
+            "OBJ_845",
+            "OBJ_846",
+            "OBJ_847",
+            "OBJ_848",
+            "OBJ_849",
+            "OBJ_850",
+            "OBJ_851",
+            "OBJ_852",
+            "OBJ_853",
+            "OBJ_854",
+            "OBJ_855",
+            "OBJ_856",
+            "OBJ_857",
+            "OBJ_858",
+            "OBJ_859",
+            "OBJ_860",
+            "OBJ_861",
+            "OBJ_862",
+            "OBJ_863",
+            "OBJ_864",
+            "OBJ_865",
+            "OBJ_866",
+            "OBJ_867",
+            "OBJ_868",
+            "OBJ_869"
+         );
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9"
+         );
+         name = "csvimport-swift";
+         path = "Sources/csvimport-swift";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_80" = {
+         isa = "PBXFileReference";
+         path = "mongoc-error.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_800" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_330";
+      };
+      "OBJ_801" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_331";
+      };
+      "OBJ_802" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_332";
+      };
+      "OBJ_803" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_333";
+      };
+      "OBJ_804" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_334";
+      };
+      "OBJ_805" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_335";
+      };
+      "OBJ_806" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_336";
+      };
+      "OBJ_807" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_337";
+      };
+      "OBJ_808" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_338";
+      };
+      "OBJ_809" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_339";
+      };
+      "OBJ_81" = {
+         isa = "PBXFileReference";
+         path = "mongoc-find-and-modify.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_810" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_340";
+      };
+      "OBJ_811" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_341";
+      };
+      "OBJ_812" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_342";
+      };
+      "OBJ_813" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_343";
+      };
+      "OBJ_814" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_344";
+      };
+      "OBJ_815" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_345";
+      };
+      "OBJ_816" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_346";
+      };
+      "OBJ_817" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_347";
+      };
+      "OBJ_818" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_348";
+      };
+      "OBJ_819" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_349";
+      };
+      "OBJ_82" = {
+         isa = "PBXFileReference";
+         path = "mongoc-gridfs-bucket-file.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_820" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_350";
+      };
+      "OBJ_821" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_351";
+      };
+      "OBJ_822" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_352";
+      };
+      "OBJ_823" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_353";
+      };
+      "OBJ_824" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_354";
+      };
+      "OBJ_825" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_355";
+      };
+      "OBJ_826" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_356";
+      };
+      "OBJ_827" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_357";
+      };
+      "OBJ_828" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_358";
+      };
+      "OBJ_829" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_359";
+      };
+      "OBJ_83" = {
+         isa = "PBXFileReference";
+         path = "mongoc-gridfs-bucket.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_830" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_360";
+      };
+      "OBJ_831" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_361";
+      };
+      "OBJ_832" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_362";
+      };
+      "OBJ_833" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_363";
+      };
+      "OBJ_834" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_364";
+      };
+      "OBJ_835" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_365";
+      };
+      "OBJ_836" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_366";
+      };
+      "OBJ_837" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_367";
+      };
+      "OBJ_838" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_368";
+      };
+      "OBJ_839" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_369";
+      };
+      "OBJ_84" = {
+         isa = "PBXFileReference";
+         path = "mongoc-gridfs-file-list.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_840" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_370";
+      };
+      "OBJ_841" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_371";
+      };
+      "OBJ_842" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_372";
+      };
+      "OBJ_843" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_373";
+      };
+      "OBJ_844" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_374";
+      };
+      "OBJ_845" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_375";
+      };
+      "OBJ_846" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_376";
+      };
+      "OBJ_847" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_377";
+      };
+      "OBJ_848" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_378";
+      };
+      "OBJ_849" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_379";
+      };
+      "OBJ_85" = {
+         isa = "PBXFileReference";
+         path = "mongoc-gridfs-file-page.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_850" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_380";
+      };
+      "OBJ_851" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_381";
+      };
+      "OBJ_852" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_382";
+      };
+      "OBJ_853" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_383";
+      };
+      "OBJ_854" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_384";
+      };
+      "OBJ_855" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_385";
+      };
+      "OBJ_856" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_386";
+      };
+      "OBJ_857" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_387";
+      };
+      "OBJ_858" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_388";
+      };
+      "OBJ_859" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_389";
+      };
+      "OBJ_86" = {
+         isa = "PBXFileReference";
+         path = "mongoc-gridfs-file.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_860" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_390";
+      };
+      "OBJ_861" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_391";
+      };
+      "OBJ_862" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_392";
+      };
+      "OBJ_863" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_393";
+      };
+      "OBJ_864" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_394";
+      };
+      "OBJ_865" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_395";
+      };
+      "OBJ_866" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_396";
+      };
+      "OBJ_867" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_397";
+      };
+      "OBJ_868" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_398";
+      };
+      "OBJ_869" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_399";
+      };
+      "OBJ_87" = {
+         isa = "PBXFileReference";
+         path = "mongoc-gridfs.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_870" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_871",
+            "OBJ_872",
+            "OBJ_873",
+            "OBJ_874",
+            "OBJ_875"
+         );
+      };
+      "OBJ_871" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOSHA1::Product";
+      };
+      "OBJ_872" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIOConcurrencyHelpers::Product";
+      };
+      "OBJ_873" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOAtomics::Product";
+      };
+      "OBJ_874" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIODarwin::Product";
+      };
+      "OBJ_875" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOLinux::Product";
+      };
+      "OBJ_876" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOSHA1";
+      };
+      "OBJ_877" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIOConcurrencyHelpers";
+      };
+      "OBJ_878" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOAtomics";
+      };
+      "OBJ_879" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIODarwin";
+      };
+      "OBJ_88" = {
+         isa = "PBXFileReference";
+         path = "mongoc-handshake.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_880" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOLinux";
+      };
+      "OBJ_881" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_882",
+            "OBJ_883"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_882" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/NIOConcurrencyHelpers_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "NIOConcurrencyHelpers";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "NIOConcurrencyHelpers";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_883" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/NIOConcurrencyHelpers_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "NIOConcurrencyHelpers";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "NIOConcurrencyHelpers";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_884" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_885",
+            "OBJ_886",
+            "OBJ_887"
+         );
+      };
+      "OBJ_885" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_401";
+      };
+      "OBJ_886" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_402";
+      };
+      "OBJ_887" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_403";
+      };
+      "OBJ_888" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_889"
+         );
+      };
+      "OBJ_889" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOAtomics::Product";
+      };
+      "OBJ_89" = {
+         isa = "PBXFileReference";
+         path = "mongoc-host-list.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_890" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOAtomics";
+      };
+      "OBJ_892" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_893",
+            "OBJ_894"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_893" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/csvimport_swift_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "csvimport-swift";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_894" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/csvimport_swift_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "csvimport-swift";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_895" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_896"
+         );
+      };
+      "OBJ_896" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_897" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_898",
+            "OBJ_899",
+            "OBJ_900",
+            "OBJ_901",
+            "OBJ_902",
+            "OBJ_903",
+            "OBJ_904",
+            "OBJ_905",
+            "OBJ_906"
+         );
+      };
+      "OBJ_898" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::MongoSwiftSync::Product";
+      };
+      "OBJ_899" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::MongoSwift::Product";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_90" = {
+         isa = "PBXFileReference";
+         path = "mongoc-index.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_900" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIO::Product";
+      };
+      "OBJ_901" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOSHA1::Product";
+      };
+      "OBJ_902" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIOConcurrencyHelpers::Product";
+      };
+      "OBJ_903" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOAtomics::Product";
+      };
+      "OBJ_904" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIODarwin::Product";
+      };
+      "OBJ_905" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOLinux::Product";
+      };
+      "OBJ_906" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::CLibMongoC::Product";
+      };
+      "OBJ_907" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::MongoSwiftSync";
+      };
+      "OBJ_908" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::MongoSwift";
+      };
+      "OBJ_909" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIO";
+      };
+      "OBJ_91" = {
+         isa = "PBXFileReference";
+         path = "mongoc-init.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_910" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOSHA1";
+      };
+      "OBJ_911" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIOConcurrencyHelpers";
+      };
+      "OBJ_912" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOAtomics";
+      };
+      "OBJ_913" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIODarwin";
+      };
+      "OBJ_914" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOLinux";
+      };
+      "OBJ_915" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::CLibMongoC";
+      };
+      "OBJ_917" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_918",
+            "OBJ_919"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_918" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.2.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_919" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.2.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_92" = {
+         isa = "PBXFileReference";
+         path = "mongoc-libressl.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_920" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_921"
+         );
+      };
+      "OBJ_921" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_923" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_924",
+            "OBJ_925"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_924" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_925" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_926" = {
+         isa = "PBXTargetDependency";
+         target = "csvimport-swift::csvimport-swiftTests";
+      };
+      "OBJ_928" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_929",
+            "OBJ_930"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_929" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/csvimport_swiftTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "csvimport-swiftTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_93" = {
+         isa = "PBXFileReference";
+         path = "mongoc-linux-distro-scanner.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_930" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOSHA1/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOAtomics/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIODarwin/include",
+               "$(SRCROOT)/.build/checkouts/swift-nio/Sources/CNIOLinux/include",
+               "$(SRCROOT)/.build/checkouts/mongo-swift-driver/Sources/CLibMongoC/include"
+            );
+            INFOPLIST_FILE = "csvimport-swift.xcodeproj/csvimport_swiftTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "csvimport-swiftTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_931" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_932",
+            "OBJ_933"
+         );
+      };
+      "OBJ_932" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_12";
+      };
+      "OBJ_933" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_934" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_935",
+            "OBJ_936",
+            "OBJ_937",
+            "OBJ_938",
+            "OBJ_939",
+            "OBJ_940",
+            "OBJ_941",
+            "OBJ_942",
+            "OBJ_943"
+         );
+      };
+      "OBJ_935" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::MongoSwiftSync::Product";
+      };
+      "OBJ_936" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::MongoSwift::Product";
+      };
+      "OBJ_937" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIO::Product";
+      };
+      "OBJ_938" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOSHA1::Product";
+      };
+      "OBJ_939" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::NIOConcurrencyHelpers::Product";
+      };
+      "OBJ_94" = {
+         isa = "PBXFileReference";
+         path = "mongoc-list.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_940" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOAtomics::Product";
+      };
+      "OBJ_941" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIODarwin::Product";
+      };
+      "OBJ_942" = {
+         isa = "PBXBuildFile";
+         fileRef = "swift-nio::CNIOLinux::Product";
+      };
+      "OBJ_943" = {
+         isa = "PBXBuildFile";
+         fileRef = "mongo-swift-driver::CLibMongoC::Product";
+      };
+      "OBJ_944" = {
+         isa = "PBXTargetDependency";
+         target = "csvimport-swift::csvimport-swift";
+      };
+      "OBJ_945" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::MongoSwiftSync";
+      };
+      "OBJ_946" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::MongoSwift";
+      };
+      "OBJ_947" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIO";
+      };
+      "OBJ_948" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOSHA1";
+      };
+      "OBJ_949" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::NIOConcurrencyHelpers";
+      };
+      "OBJ_95" = {
+         isa = "PBXFileReference";
+         path = "mongoc-log.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_950" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOAtomics";
+      };
+      "OBJ_951" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIODarwin";
+      };
+      "OBJ_952" = {
+         isa = "PBXTargetDependency";
+         target = "swift-nio::CNIOLinux";
+      };
+      "OBJ_953" = {
+         isa = "PBXTargetDependency";
+         target = "mongo-swift-driver::CLibMongoC";
+      };
+      "OBJ_955" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_956",
+            "OBJ_957"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_956" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_957" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_958" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_959"
+         );
+      };
+      "OBJ_959" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_306";
+      };
+      "OBJ_96" = {
+         isa = "PBXFileReference";
+         path = "mongoc-matcher-op.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_961" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_962",
+            "OBJ_963"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_962" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.0.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_963" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.0.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_964" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_965"
+         );
+      };
+      "OBJ_965" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_410";
+      };
+      "OBJ_97" = {
+         isa = "PBXFileReference";
+         path = "mongoc-matcher.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_98" = {
+         isa = "PBXFileReference";
+         path = "mongoc-memcmp.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_99" = {
+         isa = "PBXFileReference";
+         path = "mongoc-openssl.c";
+         sourceTree = "<group>";
+      };
+      "csvimport-swift::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_917";
+         buildPhases = (
+            "OBJ_920"
+         );
+         dependencies = (
+         );
+         name = "csvimport-swiftPackageDescription";
+         productName = "csvimport-swiftPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "csvimport-swift::csvimport-swift" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_892";
+         buildPhases = (
+            "OBJ_895",
+            "OBJ_897"
+         );
+         dependencies = (
+            "OBJ_907",
+            "OBJ_908",
+            "OBJ_909",
+            "OBJ_910",
+            "OBJ_911",
+            "OBJ_912",
+            "OBJ_913",
+            "OBJ_914",
+            "OBJ_915"
+         );
+         name = "csvimport-swift";
+         productName = "csvimport_swift";
+         productReference = "csvimport-swift::csvimport-swift::Product";
+         productType = "com.apple.product-type.tool";
+      };
+      "csvimport-swift::csvimport-swift::Product" = {
+         isa = "PBXFileReference";
+         path = "csvimport-swift";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "csvimport-swift::csvimport-swiftPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_923";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_926"
+         );
+         name = "csvimport-swiftPackageTests";
+         productName = "csvimport-swiftPackageTests";
+      };
+      "csvimport-swift::csvimport-swiftTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_928";
+         buildPhases = (
+            "OBJ_931",
+            "OBJ_934"
+         );
+         dependencies = (
+            "OBJ_944",
+            "OBJ_945",
+            "OBJ_946",
+            "OBJ_947",
+            "OBJ_948",
+            "OBJ_949",
+            "OBJ_950",
+            "OBJ_951",
+            "OBJ_952",
+            "OBJ_953"
+         );
+         name = "csvimport-swiftTests";
+         productName = "csvimport_swiftTests";
+         productReference = "csvimport-swift::csvimport-swiftTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "csvimport-swift::csvimport-swiftTests::Product" = {
+         isa = "PBXFileReference";
+         path = "csvimport_swiftTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "mongo-swift-driver::CLibMongoC" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_426";
+         buildPhases = (
+            "OBJ_429",
+            "OBJ_552",
+            "OBJ_635"
+         );
+         dependencies = (
+         );
+         name = "CLibMongoC";
+         productName = "CLibMongoC";
+         productReference = "mongo-swift-driver::CLibMongoC::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "mongo-swift-driver::CLibMongoC::Product" = {
+         isa = "PBXFileReference";
+         path = "CLibMongoC.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "mongo-swift-driver::MongoSwift" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_676";
+         buildPhases = (
+            "OBJ_679",
+            "OBJ_744"
+         );
+         dependencies = (
+            "OBJ_752",
+            "OBJ_754",
+            "OBJ_755",
+            "OBJ_757",
+            "OBJ_758",
+            "OBJ_759",
+            "OBJ_760"
+         );
+         name = "MongoSwift";
+         productName = "MongoSwift";
+         productReference = "mongo-swift-driver::MongoSwift::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "mongo-swift-driver::MongoSwift::Product" = {
+         isa = "PBXFileReference";
+         path = "MongoSwift.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "mongo-swift-driver::MongoSwiftSync" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_762";
+         buildPhases = (
+            "OBJ_765",
+            "OBJ_779"
+         );
+         dependencies = (
+            "OBJ_788",
+            "OBJ_789",
+            "OBJ_790",
+            "OBJ_791",
+            "OBJ_792",
+            "OBJ_793",
+            "OBJ_794",
+            "OBJ_795"
+         );
+         name = "MongoSwiftSync";
+         productName = "MongoSwiftSync";
+         productReference = "mongo-swift-driver::MongoSwiftSync::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "mongo-swift-driver::MongoSwiftSync::Product" = {
+         isa = "PBXFileReference";
+         path = "MongoSwiftSync.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "mongo-swift-driver::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_955";
+         buildPhases = (
+            "OBJ_958"
+         );
+         dependencies = (
+         );
+         name = "mongo-swift-driverPackageDescription";
+         productName = "mongo-swift-driverPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::CNIOAtomics" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_637";
+         buildPhases = (
+            "OBJ_640",
+            "OBJ_643",
+            "OBJ_645"
+         );
+         dependencies = (
+         );
+         name = "CNIOAtomics";
+         productName = "CNIOAtomics";
+         productReference = "swift-nio::CNIOAtomics::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::CNIOAtomics::Product" = {
+         isa = "PBXFileReference";
+         path = "CNIOAtomics.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "swift-nio::CNIODarwin" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_647";
+         buildPhases = (
+            "OBJ_650",
+            "OBJ_652",
+            "OBJ_654"
+         );
+         dependencies = (
+         );
+         name = "CNIODarwin";
+         productName = "CNIODarwin";
+         productReference = "swift-nio::CNIODarwin::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::CNIODarwin::Product" = {
+         isa = "PBXFileReference";
+         path = "CNIODarwin.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "swift-nio::CNIOLinux" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_656";
+         buildPhases = (
+            "OBJ_659",
+            "OBJ_662",
+            "OBJ_665"
+         );
+         dependencies = (
+         );
+         name = "CNIOLinux";
+         productName = "CNIOLinux";
+         productReference = "swift-nio::CNIOLinux::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::CNIOLinux::Product" = {
+         isa = "PBXFileReference";
+         path = "CNIOLinux.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "swift-nio::CNIOSHA1" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_667";
+         buildPhases = (
+            "OBJ_670",
+            "OBJ_672",
+            "OBJ_674"
+         );
+         dependencies = (
+         );
+         name = "CNIOSHA1";
+         productName = "CNIOSHA1";
+         productReference = "swift-nio::CNIOSHA1::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::CNIOSHA1::Product" = {
+         isa = "PBXFileReference";
+         path = "CNIOSHA1.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "swift-nio::NIO" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_796";
+         buildPhases = (
+            "OBJ_799",
+            "OBJ_870"
+         );
+         dependencies = (
+            "OBJ_876",
+            "OBJ_877",
+            "OBJ_878",
+            "OBJ_879",
+            "OBJ_880"
+         );
+         name = "NIO";
+         productName = "NIO";
+         productReference = "swift-nio::NIO::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::NIO::Product" = {
+         isa = "PBXFileReference";
+         path = "NIO.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "swift-nio::NIOConcurrencyHelpers" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_881";
+         buildPhases = (
+            "OBJ_884",
+            "OBJ_888"
+         );
+         dependencies = (
+            "OBJ_890"
+         );
+         name = "NIOConcurrencyHelpers";
+         productName = "NIOConcurrencyHelpers";
+         productReference = "swift-nio::NIOConcurrencyHelpers::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "swift-nio::NIOConcurrencyHelpers::Product" = {
+         isa = "PBXFileReference";
+         path = "NIOConcurrencyHelpers.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "swift-nio::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_961";
+         buildPhases = (
+            "OBJ_964"
+         );
+         dependencies = (
+         );
+         name = "swift-nioPackageDescription";
+         productName = "swift-nioPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
+}
